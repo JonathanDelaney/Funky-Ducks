@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.header {
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(rgba(150, 150, 150, 0.25), rgba(150, 150, 150, 0.25)), url("../images/floral-163591_1280.jpg");
+    background-position: cover;
+    background-size: 100%;
+    /* position: relative; */
+}
+
+h1 {
+    /* position: absolute; */
+    text-align: center;
+    color: #ee4444;
+    font-family: 'Monoton', cursive;
+    font-weight: bold;
+}
