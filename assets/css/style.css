@@ -6,19 +6,9 @@
   border: 0;
 }
 
-.home-background {
-  background-image: url("../images/paper.jpg");
-  width: 100%;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
 .header {
-  margin: 0;
-  border: 0;
   height: 80px;
-  width: 100%;
+  width: 100vw;
   background-image: url("../images/floral.jpg");
   background-position: cover;
   background-size: 100%;
@@ -36,6 +26,23 @@ h1 {
   text-shadow: 2px 2px 6px #ff8843, 2px 2px 7px #d2eb45;
 }
 
+.home-background {
+  background: url("../images/paper.jpg");
+  background-size: 100vw 100vh;
+  width: 100vw;
+  height: 80vh;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.band-background {
+  background: url("../images/stage.jpg") no-repeat;
+  background-size: 100vw 90vh;
+  height: 90vh;
+  overflow: hidden;
+  position: relative;
+}
+
 /* Vinyl Background */
 
 .vinyl-container {
@@ -45,7 +52,7 @@ h1 {
   margin: 0 auto;
   position: relative;
   top: 50px;
-  box-shadow: 10px 17px 20px 30px rgba(36, 30, 15, 0.25);
+  box-shadow: 2px 17px 20px 30px rgba(36, 30, 15, 0.25);
 }
 
 .vinyl {
@@ -74,7 +81,40 @@ h1 {
 
 .sleeve-container {
   position: absolute;
-  margin: 150px 10px 0px 10px;
+  margin: 100px 10px 0px 10px;
+}
+
+/* Band Members */
+
+.gloria,
+.stevie,
+.donna {
+  border-radius: 50%;
+  border: 1px solid #b61313;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+}
+
+.gloria {
+  background: url("../images/gloria.jpg") no-repeat -155px -25px;
+  background-size: 600px 380px;
+  top: 30vh;
+  left: 10vw;
+}
+
+.stevie {
+  background: url("../images/stevie.jpg") no-repeat center;
+  background-size: 280px 240px;
+  top: 20vh;
+  left: 43vw;
+}
+
+.donna {
+  background: url("../images/donna.jpg") no-repeat center;
+  background-size: 200px 260px;
+  top: 30vh;
+  left: 75vw;
 }
 
 /* Menu Records */
@@ -93,7 +133,7 @@ h1 {
 .band-record {
   background: url("../images/band-record.jpg") no-repeat -75px -18px;
   background-size: 325px 220px;
-  margin: 2px 0px 0px 52px;
+  margin: 52px 0px 0px 52px;
 }
 
 .events-record {
@@ -111,7 +151,7 @@ h1 {
 .bookings-record {
   background: url("../images/bookings-record.jpg") no-repeat center;
   background-size: 205px 204px;
-  margin: 2px 0px 0px 1050px;
+  margin: 52px 0px 0px 1050px;
 }
 
 /* Menu Sleeves */
@@ -126,7 +166,7 @@ h1 {
   z-index: 3;
   filter: brightness(90%);
   opacity: 99%;
-  box-shadow: 10px 5px 40px 30px rgba(36, 30, 15, 0.25);
+  box-shadow: 10px 5px 20px 30px rgba(36, 30, 15, 0.25);
   text-align: center;
   border: 2px #e7cdbe;
   border-style: groove solid none groove;
@@ -141,23 +181,26 @@ h1 {
 
 .band-sleeve {
   padding: 47px 0px;
+  margin-top: 50px;
+  transform: rotate(-1deg);
 }
 
 .events-sleeve {
   margin: 0 0 0 354px;
-  transform: rotate(1deg);
   padding: 70px 0px;
+  transform: rotate(-1deg);
 }
 
 .news-sleeve {
   margin: 0 0 0 681px;
-  transform: rotate(-1deg);
   padding: 70px 0px;
+  transform: rotate(1deg);
 }
 
 .bookings-sleeve {
-  margin: 0 0 0 998px;
+  margin: 50px 0 0 998px;
   padding: 70px 0px;
+  transform: rotate(1deg);
 }
 
 a:hover + .record {
