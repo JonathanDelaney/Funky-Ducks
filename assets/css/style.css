@@ -14,10 +14,12 @@
   background-size: 100%;
   border-bottom: 2px solid rgba(170, 139, 118, 0.836);
   filter: brightness(120%);
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 h1 {
-  text-align: center;
   color: #b61313;
   font-family: "Monoton", cursive;
   font-weight: bold;
@@ -40,7 +42,20 @@ h1 {
   background-size: 100vw 90vh;
   height: 90vh;
   overflow: hidden;
-  position: relative;
+  /* position: relative; */
+}
+
+.band-container {
+  width: 100vw;
+  height: 70vh;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a:-webkit-any-link {
+  text-decoration: none !important;
 }
 
 /* Vinyl Background */
@@ -53,6 +68,7 @@ h1 {
   position: relative;
   top: 50px;
   box-shadow: 2px 17px 20px 30px rgba(36, 30, 15, 0.25);
+  display: flex;
 }
 
 .vinyl {
@@ -90,8 +106,6 @@ h1 {
 .stevie,
 .donna {
   border-radius: 50%;
-  border: 1px solid #b61313;
-  position: absolute;
   width: 200px;
   height: 200px;
 }
@@ -99,22 +113,46 @@ h1 {
 .gloria {
   background: url("../images/gloria.jpg") no-repeat -155px -25px;
   background-size: 600px 380px;
-  top: 30vh;
-  left: 10vw;
 }
 
 .stevie {
   background: url("../images/stevie.jpg") no-repeat center;
-  background-size: 280px 240px;
-  top: 20vh;
-  left: 43vw;
+  background-size: 240px 240px;
+  align-self: flex-start;
 }
 
 .donna {
   background: url("../images/donna.jpg") no-repeat center;
   background-size: 200px 260px;
-  top: 30vh;
-  left: 75vw;
+  filter: grayscale(60%);
+}
+
+/* Band Member Info */
+
+.info {
+  height: 300px;
+  width: 700px;
+  border-radius: 15px;
+  background: white;
+  position: absolute;
+  align-self: flex-end;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+  background: #999;
+  color: white;
+}
+
+.gloria:hover ~ .gloria-info {
+  opacity: .8;
+}
+
+.stevie:hover ~ .stevie-info {
+  opacity: .8;
+}
+
+.donna:hover ~ .donna-info {
+  opacity: .8;
 }
 
 /* Menu Records */
