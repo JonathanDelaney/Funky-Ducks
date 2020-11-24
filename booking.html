@@ -20,9 +20,13 @@
   <body>
     <!-- header -->
     <div class="header">
-      <a href="home.html">
-        <h1>FUNKED UP CHICKS</h1>
-      </a>
+		<a href="home.html" class="nav-link">Home</a>
+		<a href="band.html" class="nav-link">The Band</a>
+		<a href="home.html">
+			<h1>FUNKED UP CHICKS</h1>
+		</a>
+		<a href="events.html" class="nav-link">Events</a>
+		<a href="news.html" class="nav-link">News</a>
     </div>
     <div class="booking-background">
       <div class="form-container">
@@ -30,7 +34,7 @@
         <p>
           <small>
             To book The Funked Up Chicks for a private event or venue, fill in
-            your details and receive details on how to book them and a form to
+            your details and receive info on how to book them and a form to
             apply.
           </small>
         </p>
@@ -42,6 +46,7 @@
               id="name"
               name="name"
               placeholder="Your name.."
+              required
             />
             <label for="email">Email</label>
             <input
@@ -49,6 +54,7 @@
               id="email"
               name="email"
               placeholder="Your email.."
+              required
             />
             <input type="submit" value="Submit" />
           </form>
