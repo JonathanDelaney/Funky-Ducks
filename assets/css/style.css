@@ -607,11 +607,48 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (max-width: 1000px) {
+  .menu-item {
+    margin: 0 calc(25vw - 98px) 150px;
+  }
+
   .events-menu-item {
     top: 0;
   }
 
   .news-menu-item {
     top: 0;
+  }
+
+  .index-background {
+    height: calc(130vh - (3vw + 35px));
+    padding-top: 15vh;
+  }
+
+  .band-sleeve {
+    transform: rotate(-1deg);
+  }
+
+  .events-sleeve {
+    transform: rotate(1deg);
+  }
+
+  .news-sleeve {
+    transform: rotate(1deg);
+  }
+
+  .booking-sleeve {
+    transform: rotate(-1deg);
+  }
+}
+
+@media only screen and (max-width: 680px) {
+
+  .index-background {
+    height: calc(180vh - (3vw + 35px));
+    padding-top: 4vh;
+  }
+
+  .menu-item {
+    margin: 0 calc(50vw - 98px) 150px;
   }
 }
