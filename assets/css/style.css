@@ -70,11 +70,12 @@ a:hover h1 {
 }
 
 .band-background {
-  background: url("../images/stage.jpg") no-repeat scroll center top transparent;
+  background: url("../images/stage.jpg") no-repeat center top;
   background-color: #927e60;
   background-blend-mode: multiply;
-  background-size: 100vw 90vh;
-  height: 90vh;
+  background-size: 1450px 100%; /* calc(100vh - (3vw + 35px)); */
+  height: calc(100vh - (3vw + 35px));
+  position: relative;
   overflow: hidden;
 }
 
@@ -83,7 +84,7 @@ a:hover h1 {
     url("../images/world-map.jpg") no-repeat scroll center top transparent;
   background-blend-mode: multiply;
   background-size: 100vw 90vh;
-  height: 90vh;
+  height: calc(100vh - (3vw + 35px));
   overflow: hidden;
   padding: 4vh 5vw;
   text-align: center;
@@ -204,9 +205,8 @@ a:-webkit-any-link {
 
 .menu-item {
   display: inline-block;
-  margin: 0 2% 190px 8%;
+  margin: 0 2vw 190px 8vw;
   position: relative;
-  margin-bottom: ;
 }
 
 .band-menu-item {
@@ -449,6 +449,21 @@ input[type="submit"]:hover {
   cursor: help;
 }
 
+.gloria::before,
+.stevie::before,
+.donna::before {
+  text-align: center;
+  color: #ff8843;
+  text-shadow: 0px 1px 5px #491212, 0px 1px 6px #b61313, 0px 1px 7px #eb9545,
+    0px 1px 8px #c98c32, 0px 1px 9px #e9e62d, 0px 1px 10px #9eeb45,
+    0px 1px 11px #3fe41f, 0px 1px 12px #45ebd5, 0px 1px 13px #2e3ae4,
+    0px 1px 14px #d426e4, 0px 1px 15px #e96262;
+  font-family: "Ultra", serif;
+  position: absolute;
+  width: 100%;
+  height: 20%;
+}
+
 .gloria {
   background: url("../images/gloria.jpg") no-repeat -155px -25px;
   background-size: 600px 380px;
@@ -458,18 +473,8 @@ input[type="submit"]:hover {
 
 .gloria::before {
   content: "Gloria";
-  text-align: center;
-  color: #ff8843;
-  text-shadow: 0px 1px 5px #491212, 0px 1px 6px #b61313, 0px 1px 7px #eb9545,
-    0px 1px 8px #c98c32, 0px 1px 9px #e9e62d, 0px 1px 10px #9eeb45,
-    0px 1px 11px #3fe41f, 0px 1px 12px #45ebd5, 0px 1px 13px #2e3ae4,
-    0px 1px 14px #d426e4, 0px 1px 15px #e96262;
   font-size: 3rem;
-  font-family: "Ultra", serif;
-  position: absolute;
   top: -3rem;
-  width: 100%;
-  height: 20%;
 }
 
 .stevie {
@@ -482,19 +487,9 @@ input[type="submit"]:hover {
 
 .stevie::before {
   content: "Stevie";
-  text-align: center;
-  color: #ff8843;
-  text-shadow: 0px 1px 5px #491212, 0px 1px 6px #b61313, 0px 1px 7px #eb9545,
-    0px 1px 8px #c98c32, 0px 1px 9px #e9e62d, 0px 1px 10px #9eeb45,
-    0px 1px 11px #3fe41f, 0px 1px 13px #45ebd5, 0px 1px 15px #2e3ae4,
-    0px 1px 17px #d426e4, 0px 1px 19px #e96262;
   font-size: 60px;
-  font-family: "Ultra", serif;
-  position: absolute;
   top: 10rem;
   right: 15px;
-  width: 100%;
-  height: 20%;
 }
 
 .donna {
@@ -508,18 +503,8 @@ input[type="submit"]:hover {
 
 .donna::before {
   content: "Donna";
-  text-align: center;
-  color: #ff8843;
-  text-shadow: 0px 1px 5px #491212, 0px 1px 6px #b61313, 0px 1px 7px #eb9545,
-    0px 1px 8px #c98c32, 0px 1px 9px #e9e62d, 0px 1px 10px #9eeb45,
-    0px 1px 11px #3fe41f, 0px 1px 12px #45ebd5, 0px 1px 13px #2e3ae4,
-    0px 1px 14px #d426e4, 0px 1px 15px #e96262;
   font-size: 3rem;
-  font-family: "Ultra", serif;
-  position: absolute;
   top: -3rem;
-  width: 100%;
-  height: 20%;
 }
 
 /* Band Member Info */
@@ -606,17 +591,29 @@ input[type="submit"]:hover {
   transition: transform 0.4s ease-in-out;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1300px) {
+  /* index.html */
+
   .menu-item {
-    margin: 0 calc(25vw - 98px) 150px;
+    margin: 0 0 150px calc(31vw - 98px);
+  }
+
+  .band-menu-item {
+    /* margin: 0 calc(33vw - 98px) 150px; */
   }
 
   .events-menu-item {
     top: 0;
+    /* margin: 0 calc(33vw - 98px) 150px 0; */
   }
 
   .news-menu-item {
     top: 0;
+    /* margin: 0 calc(33vw - 98px) 150px; */
+  }
+
+  .booking-menu-item {
+    /* margin: 0 calc(33vw - 98px) 150px 0; */
   }
 
   .index-background {
@@ -639,10 +636,43 @@ input[type="submit"]:hover {
   .booking-sleeve {
     transform: rotate(-1deg);
   }
+
+  /* band.html */
+
+  .band-background {
+    background-size: auto 100%;
+    height: 1900px;
+  }
+
+  .band-container {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 250vh;
+  }
+
+  .stevie {
+    align-self: center;
+    order: -2;
+  }
+
+  .stevie::before {
+    top: -3rem;
+  }
+
+  .info {
+    bottom: 0;
+    align-self: center;
+    opacity: 100%;
+    transform: scale(1);
+    position: relative;
+  }
+
+  .stevie-info {
+    order: -1;
+  }
 }
 
 @media only screen and (max-width: 680px) {
-
   .index-background {
     height: calc(180vh - (3vw + 35px));
     padding-top: 4vh;
