@@ -7,7 +7,7 @@
 }
 
 .header {
-  height: calc(3vw + 35px);
+  height: calc(4vw + 20px);
   width: 100vw;
   background-image: url("../images/floral.jpg");
   background-position: cover;
@@ -24,7 +24,7 @@ h1 {
   color: #b61313;
   font-family: "Monoton", cursive;
   font-weight: bold;
-  font-size: calc(3vw + 26px);
+  font-size: calc(11vw / 3 + 13px);
   word-spacing: 15px;
   text-shadow: 2px 2px 6px #ff8843, 2px 2px 7px #d2eb45;
   transition: transform 0.8s cubic-bezier(0.42, 0.37, 0.31, 1.3),
@@ -510,8 +510,8 @@ input[type="submit"]:hover {
 /* Band Member Info */
 
 .info {
-  height: 300px;
-  width: 700px;
+  height: 38vh;
+  width: 48vw;
   border-radius: 15px;
   bottom: -100px;
   background: url("../images/typewriter.jpg");
@@ -530,6 +530,7 @@ input[type="submit"]:hover {
   color: #ddd;
   font-family: "Acme", serif;
   z-index: 1;
+  overflow: hidden;
 }
 
 .info h2 {
@@ -592,6 +593,25 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (max-width: 1300px) {
+
+    /* header */
+
+  .nav-link {
+      visibility: hidden;
+      position: absolute;
+  }
+
+  header {
+      position: relative;
+      text-align: center;
+      align-items: center;
+      height: 
+  }
+
+  h1 {
+      /* position: absolute; */
+  }
+
   /* index.html */
 
   .menu-item {
@@ -641,13 +661,13 @@ input[type="submit"]:hover {
 
   .band-background {
     background-size: auto 100%;
-    height: 1900px;
+    height: calc(2700px - 50vw);
   }
 
   .band-container {
     flex-direction: column;
     justify-content: space-around;
-    height: 250vh;
+    height: calc(2700px - 50vw);
   }
 
   .stevie {
@@ -660,19 +680,26 @@ input[type="submit"]:hover {
   }
 
   .info {
+    width: 70vw;
+    height: calc(640px - 28vw);
     bottom: 0;
     align-self: center;
     opacity: 100%;
     transform: scale(1);
     position: relative;
+    margin: 30px 2vw auto 2vw;
   }
 
   .stevie-info {
     order: -1;
   }
+
 }
 
 @media only screen and (max-width: 680px) {
+
+/* index.html */
+
   .index-background {
     height: calc(180vh - (3vw + 35px));
     padding-top: 4vh;
@@ -681,4 +708,11 @@ input[type="submit"]:hover {
   .menu-item {
     margin: 0 calc(50vw - 98px) 150px;
   }
+
+/* band.html */
+
+.band-background{
+
+}
+
 }
