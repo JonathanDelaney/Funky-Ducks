@@ -94,7 +94,7 @@ a:hover h1 {
     transparent;
   background-color: rgb(226, 201, 153);
   background-blend-mode: screen;
-  background-size: 110vw 140vh;
+  object-fit: cover;
   height: 140vh;
   overflow: hidden;
   padding: 4vh 5vw;
@@ -712,15 +712,21 @@ input[type="submit"]:hover {
 
   /* news.html */
 
+  .news-background {
+    background-size: auto calc(2400px - 86vw);
+    height: calc(2400px - 86vw);
+  }
+
   .report-container {
-      height: calc(610px - 28vw);
+    height: calc(700px - 33vw);
   }
 
   .report {
-      height: calc(600px - 28vw);
+    height: calc(650px - 32vw);
   }
 
   .covid {
+    height: calc(920px - 50vw);
   }
 }
 
@@ -736,8 +742,35 @@ input[type="submit"]:hover {
     margin: 0 calc(50vw - 98px) 150px;
   }
 
-  /* band.html */
+  /* news.html */
 
-  .band-background {
+  .news-background {
+    background-size: auto calc(2800px - 88vw);
+    height: calc(2800px - 88vw);
+  }
+
+  .report-container {
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+  }
+
+  .esa-eler,
+  .tim-moc,
+  .esa-eler-report {
+      align-self: center;
+  }
+
+  .esa-eler {
+      order: -1;
+  }
+
+  .report-container {
+    height: calc(900px - 37vw);
+  }
+
+  .report {
+    height: calc(740px - 34vw);
   }
 }
