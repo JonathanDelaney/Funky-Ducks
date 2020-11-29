@@ -45,7 +45,7 @@ a:hover h1 {
   background-size: 100%;
   box-shadow: 0px 0px 10px 1px #333;
   align-self: flex-end;
-  border-radius: 10px 40px 0 0;
+  border-radius: 10px 200px 0 0;
   filter: brightness(90%);
   font-family: "Acme", sans-serif;
   color: #b45b0d;
@@ -63,7 +63,7 @@ a:hover h1 {
 .index-background {
   background: url("../images/recordonpaper.jpg") no-repeat center top;
   width: 100vw;
-  height: calc(100vh - (3vw + 35px));
+  height: calc(100vh - (4vw + 20px));
   background-size: 1440px;
   padding-top: 30vh;
   position: relative;
@@ -74,18 +74,17 @@ a:hover h1 {
   background-color: #927e60;
   background-blend-mode: multiply;
   background-size: 1450px 100%; /* calc(100vh - (3vw + 35px)); */
-  height: calc(100vh - (3vw + 35px));
+  height: calc(100vh - (4vw + 20px));
   position: relative;
   overflow: hidden;
 }
 
 .events-background {
   background: url("../images/sleeve2.jpg"),
-    url("../images/world-map.jpg") no-repeat scroll center top transparent;
+    url("../images/world-map.jpg") no-repeat center top;
   background-blend-mode: multiply;
-  background-size: 100vw 90vh;
-  height: calc(100vh - (3vw + 35px));
-  overflow: hidden;
+  background-size: 1450px 100%;
+  height: calc(100vh - (4vw + 20px));
   padding: 4vh 5vw;
   text-align: center;
 }
@@ -95,8 +94,8 @@ a:hover h1 {
     transparent;
   background-color: rgb(226, 201, 153);
   background-blend-mode: screen;
-  background-size: 100vw 130vh;
-  height: 130vh;
+  background-size: 110vw 140vh;
+  height: 140vh;
   overflow: hidden;
   padding: 4vh 5vw;
 }
@@ -107,7 +106,7 @@ a:hover h1 {
   background-color: #a58048;
   background-blend-mode: screen;
   background-size: 1500px 900px;
-  height: 90vh;
+  height: calc(100vh - (4vw + 20px));
   padding: 4vh 5vw;
   display: flex;
   flex-direction: column;
@@ -137,20 +136,20 @@ a:hover h1 {
   background-clip: text; */
 }
 
-.tim-moc-report-container {
+.report-container {
   display: flex;
   height: 30vh;
-  width: 87vw;
-  align-self: flex-start;
   justify-content: space-between;
 }
 
+.tim-moc-report-container {
+  width: 87vw;
+  align-self: flex-start;
+}
+
 .esa-eler-report-container {
-  display: flex;
-  height: 30vh;
   width: 90vw;
   align-self: flex-start;
-  justify-content: space-around;
 }
 
 .covid-container {
@@ -323,20 +322,23 @@ a:hover .sleeve {
   align-self: flex-start;
 }
 
-.tim-moc-report {
+.report {
   background: #333;
   opacity: 50%;
   width: 70vw;
   height: 25vh;
   border-radius: 20px;
+  padding: 20px;
+  color: white;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.report p:nth-child(2) {
+  float: right;
 }
 
 .esa-eler-report {
-  background: #333;
-  opacity: 50%;
-  width: 70vw;
-  height: 25vh;
-  border-radius: 20px;
   align-self: flex-end;
 }
 
@@ -352,11 +354,19 @@ a:hover .sleeve {
 .covid {
   margin: 4vw;
   background: rgb(231, 177, 59);
+  padding: 20px;
   opacity: 50%;
-  width: 60vw;
-  height: 30vh;
-  border-radius: 5px;
+  width: 70vw;
+  height: 40vh;
+  border-radius: 10px;
   align-self: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.covid h3 {
+  font-family: "Acme", sans-serif;
+  bottom: 20px;
 }
 
 /* Booking */
@@ -592,24 +602,23 @@ input[type="submit"]:hover {
   transition: transform 0.4s ease-in-out;
 }
 
-@media only screen and (max-width: 1300px) {
-
-    /* header */
+@media only screen and (max-width: 1199px) {
+  /* header */
 
   .nav-link {
-      visibility: hidden;
-      position: absolute;
+    visibility: hidden;
+    position: absolute;
   }
 
   header {
-      position: relative;
-      text-align: center;
-      align-items: center;
-      height: 
+    position: relative;
+    text-align: center;
+    align-items: center;
+    height: ;
   }
 
   h1 {
-      /* position: absolute; */
+    /* position: absolute; */
   }
 
   /* index.html */
@@ -694,11 +703,29 @@ input[type="submit"]:hover {
     order: -1;
   }
 
+  /* events.html */
+
+  .events-background {
+    height: 200vh;
+    background-size: 3000px 100%;
+  }
+
+  /* news.html */
+
+  .report-container {
+      height: calc(610px - 28vw);
+  }
+
+  .report {
+      height: calc(600px - 28vw);
+  }
+
+  .covid {
+  }
 }
 
 @media only screen and (max-width: 680px) {
-
-/* index.html */
+  /* index.html */
 
   .index-background {
     height: calc(180vh - (3vw + 35px));
@@ -709,10 +736,8 @@ input[type="submit"]:hover {
     margin: 0 calc(50vw - 98px) 150px;
   }
 
-/* band.html */
+  /* band.html */
 
-.band-background{
-
-}
-
+  .band-background {
+  }
 }
