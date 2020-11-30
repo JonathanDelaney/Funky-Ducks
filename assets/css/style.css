@@ -23,21 +23,33 @@
 }
 
 .navbar-toggler {
-    width: 80px;
-    height: 30px;
-    padding-left: 0px;
-    background: url("../images/paper.jpg");
-    border: 1px solid #6d3f08;
-    visibility: hidden;
-    position: absolute;
-    top: calc(20px + 4vw);
-    left: 1%;
-    z-index: 3;
+  width: 100px;
+  height: 30px;
+  padding: 0 2px 0 7px;
+  background: url("../images/paper.jpg");
+  visibility: hidden;
+  position: absolute;
+  top: calc(20px + 4vw);
+  font-family: "Acme", sans-serif;
+  font-size: 2rem;
+  color: #d37139;
+  z-index: 3;
+  border-radius: 0 0 200px 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar-toggler:hover {
+  color: #ff8843;
+}
+
+.band-background .navbar-toggler {
+  top: 0;
 }
 
 .band-background ul,
 .news-background ul {
-    align-items: center;
+  align-items: center;
 }
 
 h1 {
@@ -57,13 +69,13 @@ a:hover h1 {
 }
 
 .nav-link {
-    font-family: "Acme", sans-serif;
-    font-size: 2rem;
-    color: #ff8843;
+  font-family: "Acme", sans-serif;
+  font-size: 2rem;
+  color: #ff8843;
 }
 
 .nav-link:hover {
-    color: #d37139; 
+  color: #d37139;
 }
 
 .navlink {
@@ -125,9 +137,9 @@ a:hover h1 {
   background-color: rgb(226, 201, 153);
   background-blend-mode: screen;
   object-fit: cover;
-  height: 140vh;
+  height: calc(2400px - 86vw);
   overflow: hidden;
-  padding: 4vh 5vw;
+  padding: 4vh 4vw;
 }
 
 .booking-background {
@@ -142,6 +154,7 @@ a:hover h1 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  overflow: hidden;
 }
 
 .news-heading {
@@ -168,16 +181,8 @@ a:hover h1 {
 
 .report-container {
   display: flex;
-  height: 30vh;
+  height: calc(720px - 33vw);
   justify-content: space-between;
-}
-
-.tim-moc-report-container {
-  width: 87vw;
-  align-self: flex-start;
-}
-
-.esa-eler-report-container {
   width: 90vw;
   align-self: flex-start;
 }
@@ -214,6 +219,12 @@ a:hover h1 {
 
 .row-margin {
   margin-top: 1vw;
+}
+
+.usa-col,
+.eu-col,
+.asia-col {
+    margin-bottom: 35px;
 }
 
 .usa,
@@ -344,8 +355,8 @@ a:hover .sleeve {
 /*  News */
 
 .tim-moc {
-  width: 14vw;
-  height: 14vw;
+  width: calc(4vw + 145px);
+  height: calc(4vw + 145px);
   border-radius: 50%;
   background: url("../images/male-reporter.jpg") no-repeat center center;
   background-size: 140%;
@@ -358,7 +369,7 @@ a:hover .sleeve {
   width: 70vw;
   height: calc(660px - 32vw);
   border-radius: 20px;
-  padding: 20px;
+  padding: 1vw;
   color: white;
   font-size: 1.7rem;
   text-align: center;
@@ -374,8 +385,8 @@ a:hover .sleeve {
 }
 
 .esa-eler {
-  width: 14vw;
-  height: 14vw;
+  width: calc(4vw + 145px);
+  height: calc(4vw + 145px);
   border-radius: 50%;
   background: url("../images/female-reporter.jpg") no-repeat center center;
   background-size: 140%;
@@ -385,7 +396,7 @@ a:hover .sleeve {
 .covid {
   margin: 4vw;
   background: rgb(231, 177, 59);
-  padding: 20px;
+  padding: 2vw;
   opacity: 50%;
   width: 70vw;
   height: 40vh;
@@ -404,8 +415,7 @@ a:hover .sleeve {
 
 .form-container {
   height: 45vh;
-  width: 50vw;
-  min-width: 400px;
+  width: 50%;
   border-radius: 25px;
   background: rgb(255, 254, 254);
   opacity: 70%;
@@ -438,7 +448,7 @@ a:hover .sleeve {
 }
 
 .form {
-  size: inherit;
+  width: 80%;
   display: flex;
 }
 
@@ -467,6 +477,18 @@ form label {
 
 input[type="submit"]:hover {
   background-color: rgb(204, 82, 82);
+}
+
+.social-links {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  color: #7f5e45;
 }
 
 /* Band Members */
@@ -649,7 +671,7 @@ input[type="submit"]:hover {
   }
 
   .navbar-toggler {
-      visibility: visible;
+    visibility: visible;
   }
 
   h1 {
@@ -741,7 +763,7 @@ input[type="submit"]:hover {
   /* events.html */
 
   .events-background {
-    height: 200vh;
+    height: 220vh;
     background-size: 3000px 100%;
   }
 
@@ -750,18 +772,23 @@ input[type="submit"]:hover {
   .news-background {
     background-size: auto calc(2400px - 86vw);
     height: calc(2400px - 86vw);
+    padding: 0;
   }
 
   .report-container {
     height: calc(700px - 33vw);
+    width: 100%;
   }
 
   .report {
-    height: calc(650px - 32vw);
+    margin: 10px 0 20px;
+    height: calc(630px - 32vw);
+    width: 100%;
   }
 
   .covid {
     height: calc(920px - 50vw);
+    width: 100%;
   }
 }
 
@@ -769,7 +796,7 @@ input[type="submit"]:hover {
   /* index.html */
 
   .index-background {
-    height: calc(180vh - (3vw + 35px));
+    height: calc(260vh - (3vw + 35px));
     padding-top: 4vh;
   }
 
@@ -777,11 +804,40 @@ input[type="submit"]:hover {
     margin: 0 calc(50vw - 98px) 150px;
   }
 
+  /* band.html */
+
+  .band-background {
+    background-size: auto 100%;
+    height: calc(3200px - 50vw);
+  }
+
+  .band-container {
+    flex-direction: column;
+    justify-content: space-around;
+    height: calc(3200px - 50vw);
+  }
+
+  .info {
+    width: 97vw;
+  }
+
+  /* Events.html */
+
+  .events-background {
+      height: 280vh;
+      overflow: hidden;
+  }
+
+  .events-background h2 {
+      font-size: 4rem;
+  }
+
   /* news.html */
 
   .news-background {
-    background-size: auto calc(2800px - 88vw);
-    height: calc(2800px - 88vw);
+    background-size: auto calc(3000px - 88vw);
+    height: calc(2900px - 88vw);
+    padding: 5vh 0;
   }
 
   .report-container {
@@ -793,7 +849,8 @@ input[type="submit"]:hover {
 
   .esa-eler,
   .tim-moc,
-  .esa-eler-report {
+  .esa-eler-report,
+  .tim-moc-report {
     align-self: center;
   }
 
@@ -802,10 +859,30 @@ input[type="submit"]:hover {
   }
 
   .report-container {
-    height: calc(900px - 37vw);
+    height: calc(940px - 37vw);
   }
 
   .report {
-    height: calc(740px - 34vw);
+    height: calc(820px - 34vw);
+  }
+
+  .covid {
+    height: calc(900px - 37vw);
+  }
+
+  /* booking.html */
+
+  .booking-background {
+    height: 130vh;
+  }
+
+  .form-container {
+    height: 70vh;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .social-container {
+    height: 40vh;
   }
 }
