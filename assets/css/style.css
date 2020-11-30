@@ -18,6 +18,26 @@
   justify-content: space-around;
   align-content: center;
   overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.navbar-toggler {
+    width: 80px;
+    height: 30px;
+    padding-left: 0px;
+    background: url("../images/paper.jpg");
+    border: 1px solid #6d3f08;
+    visibility: hidden;
+    position: absolute;
+    top: calc(20px + 4vw);
+    left: 1%;
+    z-index: 3;
+}
+
+.band-background ul,
+.news-background ul {
+    align-items: center;
 }
 
 h1 {
@@ -37,6 +57,16 @@ a:hover h1 {
 }
 
 .nav-link {
+    font-family: "Acme", sans-serif;
+    font-size: 2rem;
+    color: #ff8843;
+}
+
+.nav-link:hover {
+    color: #d37139; 
+}
+
+.navlink {
   padding: 0;
   margin: 0;
   width: 120px;
@@ -55,7 +85,7 @@ a:hover h1 {
   transition: color 0.15s ease-in-out, box-shadow 0.25s ease-in-out;
 }
 
-.nav-link:hover {
+.navlink:hover {
   color: #dc6b0b;
   box-shadow: 0px 0px 10px 3px #333;
 }
@@ -326,12 +356,13 @@ a:hover .sleeve {
   background: #333;
   opacity: 50%;
   width: 70vw;
-  height: 25vh;
+  height: calc(660px - 32vw);
   border-radius: 20px;
   padding: 20px;
   color: white;
   font-size: 1.7rem;
   text-align: center;
+  overflow: hidden;
 }
 
 .report p:nth-child(2) {
@@ -605,7 +636,7 @@ input[type="submit"]:hover {
 @media only screen and (max-width: 1199px) {
   /* header */
 
-  .nav-link {
+  .navlink {
     visibility: hidden;
     position: absolute;
   }
@@ -615,6 +646,10 @@ input[type="submit"]:hover {
     text-align: center;
     align-items: center;
     height: ;
+  }
+
+  .navbar-toggler {
+      visibility: visible;
   }
 
   h1 {
@@ -759,11 +794,11 @@ input[type="submit"]:hover {
   .esa-eler,
   .tim-moc,
   .esa-eler-report {
-      align-self: center;
+    align-self: center;
   }
 
   .esa-eler {
-      order: -1;
+    order: -1;
   }
 
   .report-container {
