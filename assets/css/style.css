@@ -118,7 +118,7 @@ a:hover h1 {
   background: url("../images/stage.jpg") no-repeat center top;
   background-color: #927e60;
   background-blend-mode: multiply;
-  background-size: 1450px 100%; /* calc(100vh - (3vw + 35px)); */
+  background-size: 1450px 100%;
   height: calc(100vh - (4vw + 20px));
   position: relative;
   overflow: hidden;
@@ -238,6 +238,11 @@ a:hover h1 {
   height: 3rem;
   border: 1px solid #472803;
   opacity: 70%;
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a:-webkit-any-link {
@@ -358,10 +363,14 @@ a:hover .sleeve {
 
 /*  News */
 
-.tim-moc {
+.reporter {
   width: calc(4vw + 145px);
   height: calc(4vw + 145px);
   border-radius: 50%;
+  margin: 4px;
+}
+
+.tim-moc {
   background: url("../images/male-reporter.jpg") no-repeat center center;
   background-size: 140%;
   align-self: flex-start;
@@ -371,17 +380,20 @@ a:hover .sleeve {
   background: #333;
   opacity: 50%;
   width: 70vw;
-  height: calc(660px - 32vw);
+  height: calc(660px - 30vw);
   border-radius: 20px;
   padding: 1vw;
   color: white;
   font-size: 1.7rem;
   text-align: center;
   overflow: hidden;
+  position: relative;
 }
 
 .report p:nth-child(2) {
-  float: right;
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
 }
 
 .esa-eler-report {
@@ -389,9 +401,6 @@ a:hover .sleeve {
 }
 
 .esa-eler {
-  width: calc(4vw + 145px);
-  height: calc(4vw + 145px);
-  border-radius: 50%;
   background: url("../images/female-reporter.jpg") no-repeat center center;
   background-size: 140%;
   align-self: flex-end;
@@ -577,11 +586,11 @@ input[type="submit"]:hover {
 /* Band Member Info */
 
 .info {
-  height: 38vh;
+  height: 44vh;
   width: 48vw;
   border-radius: 15px;
   padding: 0 15px;
-  bottom: -100px;
+  bottom: -170px;
   background: url("../images/typewriter.jpg");
   background-color: #666;
   background-blend-mode: multiply;
@@ -780,6 +789,11 @@ input[type="submit"]:hover {
     padding: 0;
   }
 
+  .tim-moc,
+  .esa-eler {
+      background-size: 180%;
+  }
+
   .report-container {
     height: calc(700px - 33vw);
     width: 100%;
@@ -870,11 +884,11 @@ input[type="submit"]:hover {
   }
 
   .report {
-    height: calc(820px - 34vw);
+    height: calc(750px - 42vw);
   }
 
   .covid {
-    height: calc(900px - 37vw);
+    height: calc(920px - 60vw);
   }
 
   /* booking.html */
