@@ -30,6 +30,7 @@
   visibility: hidden;
   position: absolute;
   top: calc(20px + 4vw);
+  left: 0;
   font-family: "Acme", sans-serif;
   font-size: 2rem;
   color: #d37139;
@@ -37,10 +38,12 @@
   border-radius: 0 0 200px 10px;
   display: flex;
   justify-content: flex-start;
+  transition: color 0.15s ease-in-out, box-shadow 0.25s ease-in-out;
 }
 
 .navbar-toggler:hover {
   color: #ff8843;
+  box-shadow: 2px 2px 5px 1px #333;
 }
 
 .band-background .navbar-toggler {
@@ -123,7 +126,7 @@ a:hover h1 {
 
 .events-background {
   background: url("../images/sleeve2.jpg"),
-    url("../images/world-map.jpg") no-repeat center top;
+    url("../images/galaxy-map.png") no-repeat center top;
   background-blend-mode: multiply;
   background-size: 1450px 100%;
   height: calc(100vh - (4vw + 20px));
@@ -224,7 +227,7 @@ a:hover h1 {
 .usa-col,
 .eu-col,
 .asia-col {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .usa,
@@ -311,6 +314,7 @@ a:-webkit-any-link {
   transition: transform 0.4s ease-in-out;
   position: relative;
   z-index: 2;
+  overflow: hidden;
 }
 
 .sleeve h2 {
@@ -576,6 +580,7 @@ input[type="submit"]:hover {
   height: 38vh;
   width: 48vw;
   border-radius: 15px;
+  padding: 0 15px;
   bottom: -100px;
   background: url("../images/typewriter.jpg");
   background-color: #666;
@@ -819,17 +824,19 @@ input[type="submit"]:hover {
 
   .info {
     width: 97vw;
+    height: calc(680px - 30vw);
+    padding: 0;
   }
 
   /* Events.html */
 
   .events-background {
-      height: 280vh;
-      overflow: hidden;
+    height: 280vh;
+    overflow: hidden;
   }
 
   .events-background h2 {
-      font-size: 4rem;
+    font-size: 4rem;
   }
 
   /* news.html */
@@ -884,5 +891,9 @@ input[type="submit"]:hover {
 
   .social-container {
     height: 40vh;
+  }
+
+  .social-links {
+    padding: 0 15%;
   }
 }
