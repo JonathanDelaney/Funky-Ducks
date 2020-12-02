@@ -206,7 +206,7 @@ a:hover h1 {
 
 .menu-item {
   display: inline-block;
-  margin: 0 2vw 190px 8vw;
+  margin: 0 0 190px 9.3%;
   position: relative;
 }
 
@@ -222,6 +222,7 @@ a:hover h1 {
 }
 
 .booking-menu-item {
+    position: fixed;
 }
 
 .record {
@@ -693,7 +694,6 @@ input[type="submit"]:hover {
     position: relative;
     text-align: center;
     align-items: center;
-    height: ;
   }
 
   .navbar-toggler {
@@ -703,31 +703,25 @@ input[type="submit"]:hover {
 
   /* index.html */
 
+  .index-background {
+    height: calc(1024px - (4vw + 20px));
+    padding-top: 15vh;
+  }
+
   .menu-item {
     margin: 0 0 150px calc(31vw - 98px);
   }
 
-  .band-menu-item {
-    /* margin: 0 calc(33vw - 98px) 150px; */
-  }
-
   .events-menu-item {
     top: 0;
-    /* margin: 0 calc(33vw - 98px) 150px 0; */
   }
 
   .news-menu-item {
     top: 0;
-    /* margin: 0 calc(33vw - 98px) 150px; */
   }
 
   .booking-menu-item {
-    /* margin: 0 calc(33vw - 98px) 150px 0; */
-  }
-
-  .index-background {
-    height: calc(130vh - (3vw + 35px));
-    padding-top: 15vh;
+    position: relative;
   }
 
   .band-sleeve {
@@ -828,7 +822,7 @@ input[type="submit"]:hover {
   /* index.html */
 
   .index-background {
-    height: calc(260vh - (3vw + 35px));
+    height: 1400px;
     padding-top: 4vh;
   }
 
