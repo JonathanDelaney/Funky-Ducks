@@ -1,6 +1,7 @@
 <h1 align="center">Funked Up Chicks</h1>
 
-Live website :arrow_down:<a href="https://jonathandelaney.github.io/Funked-Up-Chicks/index.html" width="50px">![alt](https://github.com/JonathanDelaney/Funked-Up-Chicks/blob/master/assets/images/stevie.jpg?raw=true)</a>
+Live website :arrow_down:<br>
+<a href="https://jonathandelaney.github.io/Funked-Up-Chicks/index.html">![alt](./assets/images/stevie.jpg)</a>
 
 ## About
 
@@ -33,14 +34,38 @@ The next phase was coming up with the name, something which would pin down some 
 <br>
 With an image of the band now in my mind I could see what their image would be. I pictured three women with colorful hair and style and wearing sixties/seventies clothes. I don't know why myabe because that is when funk came into existance first. Nonetheless it was formed in my mind as such and so I would commit to it. With this now sort of old school image in place I liked the idea of using records in the website and having them play a central role in tying the site together.<br>
 <br>
-I went work on the mockups piecing things together as i went. The records took a backseat and onkly one ended up as the backdrop to the homepage and a record shop featured in a couple of other pages, however the old school style came through other design features such as brown paper backdrops and floral header creations. It was only when programming the website that I found inspiration to use the records more effectivekly in the design of the website. 
+I went to work on the mockups, piecing things together as i went. The records took a backseat and onkly one ended up as the backdrop to the homepage and a record shop featured in a couple of other pages, however the old school style came through other design features such as brown paper backdrops and floral header creations. It was only when programming the website that I found inspiration to use the records more effectively in the design of the website. 
 
 ## Mockups
 
-### Mobile
+* ### Mobile
 
-### Tablet
+<img src="./assets/images/readme/iphone1.jpg" height="400px" />
+<img src="./assets/images/readme/iphone2.jpg" height="400px" />
+<img src="./assets/images/readme/iphone3.jpg" height="400px" />
+<img src="./assets/images/readme/iphone4.jpg" height="400px" />
+<img src="./assets/images/readme/iphone5.jpg" height="400px" />
 
-### Desktop
+* ### Tablet
 
-##
+<img src="./assets/images/readme/ipad1.jpg" height="400px" />
+<img src="./assets/images/readme/ipad2.jpg" height="400px" />
+<img src="./assets/images/readme/ipad3.jpg" height="400px" />
+<img src="./assets/images/readme/ipad4.jpg" height="400px" />
+<img src="./assets/images/readme/ipad5.jpg" height="400px" />
+
+* ### Desktop
+
+<img src="./assets/images/readme/web1.jpg" height="400px" />
+<img src="./assets/images/readme/web2.jpg" height="400px" />
+<img src="./assets/images/readme/web3.jpg" height="400px" />
+<img src="./assets/images/readme/web4.jpg" height="400px" />
+<img src="./assets/images/readme/web5.jpg" height="400px" />
+
+## Features
+
+## Technologies Used
+
+## Testing
+
+## Credits
