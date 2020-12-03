@@ -187,6 +187,16 @@ a:hover h1 {
 
 /* Containers */
 
+.band-container {
+  width: 100vw;
+  height: 60vh;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
 .report-container {
   display: flex;
   height: calc(720px - 33vw);
@@ -318,16 +328,6 @@ a:hover .sleeve {
 
 /* Band Members */
 
-.band-container {
-  width: 100vw;
-  height: 60vh;
-  margin-top: 60px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  position: relative;
-}
-
 .gloria,
 .stevie,
 .donna {
@@ -413,7 +413,7 @@ a:hover .sleeve {
   position: absolute;
   align-self: flex-end;
   text-align: center;
-  opacity: 0;
+  opacity: 98%;
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
   transform: scale(0);
   color: #ddd;
@@ -446,10 +446,9 @@ a:hover .sleeve {
 /* The Band Hover Effects */
 
 .gloria:hover ~ .gloria-info {
-  opacity: 98%;
   transform: scale(1);
   transform-origin: top left;
-  transition: opacity 0.3s ease-in-out 0.2s, transform 0.3s ease-in-out 0.2s;
+  transition: transform 0.3s ease-in-out 0.2s;
 }
 
 .gloria:hover {
@@ -458,10 +457,9 @@ a:hover .sleeve {
 }
 
 .stevie:hover ~ .stevie-info {
-  opacity: 98%;
   transform: scale(1);
   transform-origin: top;
-  transition: opacity 0.3s ease-in-out 0.2s, transform 0.3s ease-in-out 0.2s;
+  transition: transform 0.3s ease-in-out 0.2s;
 }
 
 .stevie:hover {
@@ -470,10 +468,9 @@ a:hover .sleeve {
 }
 
 .donna:hover ~ .donna-info {
-  opacity: 98%;
   transform: scale(1);
   transform-origin: top right;
-  transition: opacity 0.3s ease-in-out 0.2s, transform 0.3s ease-in-out 0.2s;
+  transition: transform 0.3s ease-in-out 0.2s;
 }
 
 .donna:hover {
@@ -541,6 +538,7 @@ a:-webkit-any-link {
 .reporter {
   width: calc(4vw + 145px);
   height: calc(4vw + 145px);
+  min-width: calc(4vw + 145px);
   border-radius: 50%;
   margin: 4px;
 }
@@ -792,7 +790,7 @@ input[type="submit"]:hover {
   .news-background {
     background-size: auto calc(2400px - 86vw);
     height: calc(2400px - 86vw);
-    padding: 0;
+    padding: 3px;
   }
 
   .tim-moc,
