@@ -40,27 +40,15 @@ I went to work on the mockups, piecing things together as i went. The records to
 
 * ### Mobile
 
-<img src="./assets/images/readme/iphone1.jpg" height="400px" />
-<img src="./assets/images/readme/iphone2.jpg" height="400px" />
-<img src="./assets/images/readme/iphone3.jpg" height="400px" />
-<img src="./assets/images/readme/iphone4.jpg" height="400px" />
-<img src="./assets/images/readme/iphone5.jpg" height="400px" />
+<img src="./assets/images/readme/iphone1.jpg" height="400px" /> <img src="./assets/images/readme/iphone2.jpg" height="400px" /> <img src="./assets/images/readme/iphone3.jpg" height="400px" /> <img src="./assets/images/readme/iphone4.jpg" height="400px" /> <img src="./assets/images/readme/iphone5.jpg" height="400px" />
 
 * ### Tablet
 
-<img src="./assets/images/readme/ipad1.jpg" height="400px" />
-<img src="./assets/images/readme/ipad2.jpg" height="400px" />
-<img src="./assets/images/readme/ipad3.jpg" height="400px" />
-<img src="./assets/images/readme/ipad4.jpg" height="400px" />
-<img src="./assets/images/readme/ipad5.jpg" height="400px" />
+<img src="./assets/images/readme/ipad1.jpg" height="400px" /> <img src="./assets/images/readme/ipad2.jpg" height="400px" /> <img src="./assets/images/readme/ipad3.jpg" height="400px" /> <img src="./assets/images/readme/ipad4.jpg" height="400px" /> <img src="./assets/images/readme/ipad5.jpg" height="400px" />
 
 * ### Desktop
 
-<img src="./assets/images/readme/web1.jpg" height="400px" />
-<img src="./assets/images/readme/web2.jpg" height="400px" />
-<img src="./assets/images/readme/web3.jpg" height="400px" />
-<img src="./assets/images/readme/web4.jpg" height="400px" />
-<img src="./assets/images/readme/web5.jpg" height="400px" />
+<img src="./assets/images/readme/web1.jpg" height="400px" /> <img src="./assets/images/readme/web2.jpg" height="400px" /> <img src="./assets/images/readme/web3.jpg" height="400px" /> <img src="./assets/images/readme/web4.jpg" height="400px" /> <img src="./assets/images/readme/web5.jpg" height="400px" />
 
 ## Features
 
