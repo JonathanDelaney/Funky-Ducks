@@ -211,6 +211,33 @@ a:hover h1 {
   align-content: center;
 }
 
+.form-container {
+  height: 45vh;
+  width: 50%;
+  border-radius: 25px;
+  background: rgb(255, 254, 254);
+  opacity: 70%;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.social-container {
+  height: 25vh;
+  width: 70vw;
+  border-radius: 25px;
+  background: rgb(255, 254, 254);
+  opacity: 70%;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 /* Home Background */
 
@@ -600,37 +627,9 @@ a:-webkit-any-link {
 
 /* Booking */
 
-.form-container {
-  height: 45vh;
-  width: 50%;
-  border-radius: 25px;
-  background: rgb(255, 254, 254);
-  opacity: 70%;
-  padding: 1vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
 .form-container h2,
 .social-container h3 {
   font-family: "Ultra", sans-serif;
-  text-align: center;
-}
-
-.social-container {
-  height: 25vh;
-  width: 70vw;
-  border-radius: 25px;
-  background: rgb(255, 254, 254);
-  opacity: 70%;
-  padding: 1vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
@@ -896,7 +895,7 @@ input[type="submit"]:hover {
   }
 
   .covid {
-    height: calc(920px - 60vw);
+    height: calc(955px - 60vw);
   }
 
 
