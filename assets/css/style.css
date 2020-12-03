@@ -141,9 +141,9 @@ a:hover h1 {
 }
 
 .news-background {
-  background: url("../images/record-shop.jpg") no-repeat scroll center top
-    transparent;
+  background: url("../images/record-shop.jpg") no-repeat center top;
   background-color: rgb(226, 201, 153);
+  background-size: 1450px 100%;
   background-blend-mode: screen;
   object-fit: cover;
   height: calc(2400px - 86vw);
@@ -152,11 +152,11 @@ a:hover h1 {
 }
 
 .booking-background {
-  background: url("../images/record-shop.jpg") no-repeat scroll center top
-    transparent;
+  background: url("../images/record-shop.jpg") no-repeat center top;
   background-color: #a58048;
   background-blend-mode: screen;
-  background-size: 1500px 900px;
+  background-size: 1450px 100%;
+  object-fit: cover;
   height: calc(100vh - (4vw + 20px));
   padding: 4vh 5vw;
   display: flex;
