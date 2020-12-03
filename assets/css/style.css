@@ -132,7 +132,7 @@ a:hover h1 {
 
 .events-background {
   background: url("../images/sleeve2.jpg"),
-    url("../images/galaxy-map.png") no-repeat center top;
+    url("../images/galaxy-map.jpg") no-repeat center top;
   background-blend-mode: multiply;
   background-size: 1450px 100%;
   height: calc(100vh - (4vw + 20px));
