@@ -6,7 +6,6 @@
   border: 0;
 }
 
-
 /* Header */
 
 .header {
@@ -108,23 +107,20 @@ a:hover h1 {
   box-shadow: 0px 0px 10px 3px #333;
 }
 
-
 /* Backgrounds */
 
 .index-background {
   background: url("../images/recordonpaper.jpg") no-repeat center top;
-  width: 100vw;
   height: calc(100vh - (4vw + 20px));
-  background-size: 1440px;
-  padding-top: 30vh;
-  position: relative;
+  background-size: cover;
+  padding-top: 20vh;
 }
 
 .band-background {
   background: url("../images/stage.jpg") no-repeat center top;
   background-color: #927e60;
   background-blend-mode: multiply;
-  background-size: 1450px 100%;
+  background-size: cover;
   height: calc(100vh - (4vw + 20px));
   position: relative;
   overflow: hidden;
@@ -134,7 +130,7 @@ a:hover h1 {
   background: url("../images/sleeve2.jpg"),
     url("../images/galaxy-map.jpg") no-repeat center top;
   background-blend-mode: multiply;
-  background-size: 1450px 100%;
+  background-size: cover;
   height: calc(100vh - (4vw + 20px));
   padding: 4vh 5vw;
   text-align: center;
@@ -143,19 +139,18 @@ a:hover h1 {
 .news-background {
   background: url("../images/record-shop.jpg") no-repeat center top;
   background-color: rgb(226, 201, 153);
-  background-size: 1450px 100%;
+  background-size: cover;
   background-blend-mode: screen;
-  object-fit: cover;
-  height: calc(2400px - 86vw);
+  height: calc(100vh - (4vw + 20px));
   overflow: hidden;
   padding: 4vh 4vw;
 }
 
 .booking-background {
-  background: url("../images/record-shop.jpg") no-repeat center top;
+  background: url("../images/record-shop.jpg") no-repeat center bottom;
   background-color: #a58048;
   background-blend-mode: screen;
-  background-size: 1450px 100%;
+  background-size: cover;
   object-fit: cover;
   height: calc(100vh - (4vw + 20px));
   padding: 4vh 5vw;
@@ -200,6 +195,7 @@ a:hover h1 {
 .report-container {
   display: flex;
   height: calc(720px - 33vw);
+  min-height: 250px;
   justify-content: space-between;
   width: 90vw;
   align-self: flex-start;
@@ -228,6 +224,7 @@ a:hover h1 {
 .social-container {
   height: 25vh;
   width: 70vw;
+  max-width: 1000px;
   border-radius: 25px;
   background: rgb(255, 254, 254);
   opacity: 70%;
@@ -243,7 +240,7 @@ a:hover h1 {
 
 .menu-item {
   display: inline-block;
-  margin: 0 0 190px 9.3%;
+  margin: 0 2% 190px 8%;
   position: relative;
 }
 
@@ -259,7 +256,7 @@ a:hover h1 {
 }
 
 .booking-menu-item {
-    position: fixed;
+  position: fixed;
 }
 
 .record {
@@ -294,7 +291,6 @@ a:hover h1 {
   background: url("../images/bookings-record.jpg") no-repeat center;
   background-size: 205px 204px;
 }
-
 
 /* Menu Sleeves */
 
@@ -505,7 +501,6 @@ a:hover .sleeve {
   transition: transform 0.4s ease-in-out;
 }
 
-
 /* Events */
 
 .col-12 h2 {
@@ -538,7 +533,7 @@ a:hover .sleeve {
   border: 1px solid #472803;
   opacity: 70%;
   text-align: center;
-  font-family: 'Acme', sans-serif;
+  font-family: "Acme", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -547,7 +542,6 @@ a:hover .sleeve {
 a:-webkit-any-link {
   text-decoration: none !important;
 }
-
 
 /*  News */
 
@@ -566,6 +560,8 @@ a:-webkit-any-link {
   width: calc(4vw + 145px);
   height: calc(4vw + 145px);
   min-width: calc(4vw + 145px);
+  max-width: 180px;
+  max-height: 200px;
   border-radius: 50%;
   margin: 4px;
 }
@@ -581,6 +577,7 @@ a:-webkit-any-link {
   opacity: 50%;
   width: 70vw;
   height: calc(660px - 30vw);
+  min-height: 200px;
   border-radius: 20px;
   padding: 1vw;
   color: white;
@@ -591,9 +588,9 @@ a:-webkit-any-link {
 }
 
 .report p:nth-child(2) {
-    position: absolute;
-    bottom: 3px;
-    right: 3px;
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
 }
 
 .esa-eler-report {
@@ -624,7 +621,6 @@ a:-webkit-any-link {
   bottom: 20px;
 }
 
-
 /* Booking */
 
 .form-container h2,
@@ -635,7 +631,7 @@ a:-webkit-any-link {
 
 .form {
   width: 80%;
-  display: flex;
+  margin: 10%;
 }
 
 form label {
@@ -654,7 +650,7 @@ form label {
 
 .submit-button {
   width: 50%;
-  height: 20%;
+  height: 30%;
   border-radius: 6px;
   background-color: rgb(206, 29, 29);
   cursor: pointer;
@@ -677,9 +673,7 @@ input[type="submit"]:hover {
   color: #7f5e45;
 }
 
-
 @media only screen and (max-width: 1199px) {
-
   /* header */
 
   .navlink {
@@ -696,7 +690,6 @@ input[type="submit"]:hover {
   .navbar-toggler {
     visibility: visible;
   }
-
 
   /* index.html */
 
@@ -737,7 +730,6 @@ input[type="submit"]:hover {
     transform: rotate(-1deg);
   }
 
-
   /* band.html */
 
   .band-background {
@@ -775,14 +767,12 @@ input[type="submit"]:hover {
     order: -1;
   }
 
-
   /* events.html */
 
   .events-background {
     height: 220vh;
     background-size: 3000px 100%;
   }
-
 
   /* news.html */
 
@@ -794,7 +784,7 @@ input[type="submit"]:hover {
 
   .tim-moc,
   .esa-eler {
-      background-size: 180%;
+    background-size: 180%;
   }
 
   .report-container {
@@ -815,7 +805,6 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (max-width: 680px) {
-
   /* index.html */
 
   .index-background {
@@ -826,7 +815,6 @@ input[type="submit"]:hover {
   .menu-item {
     margin: 0 calc(50vw - 98px) 150px;
   }
-
 
   /* band.html */
 
@@ -847,7 +835,6 @@ input[type="submit"]:hover {
     padding: 0;
   }
 
-
   /* Events.html */
 
   .events-background {
@@ -858,7 +845,6 @@ input[type="submit"]:hover {
   .events-background h2 {
     font-size: 4rem;
   }
-
 
   /* news.html */
 
@@ -897,7 +883,6 @@ input[type="submit"]:hover {
   .covid {
     height: calc(955px - 60vw);
   }
-
 
   /* booking.html */
 
