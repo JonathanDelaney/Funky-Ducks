@@ -94,6 +94,7 @@ I went to work on the mockups, piecing things together as i went. The records to
 
 ### Frameworks and programmes used
 
+- Gitpod was the IDE used to code the website.
 - AdobeXd for the design of the mockups.
 - Vectr to edit images for free.
 - TnyJPG to compress images.
@@ -148,7 +149,7 @@ The images had to be compressed alot, however i changed one problematic image to
 ## Deployment
 
 ### Publishing
-This website was published using [GitHub Pages](https://pages.github.com/). The procedure is outlined below.
+I published the website by following the instructions below.
 1. Go to the GitHub website and log in.
 2. On the left-hand side, you'll see all your repositories, select the appropriate one. ([Repository](https://github.com/JonathanDelaney/Funked-Up-Chicks) used for this project).
 3. Under the name of your chosen Repository you will see a ribbon of selections, click on 'Settings' located on the right hand side.
@@ -158,7 +159,7 @@ This website was published using [GitHub Pages](https://pages.github.com/). The 
 7. It takes a few minutes for the site to be published, wait until the background of your link changes to a green color before trying to open it.
 
 ### Forking
-If you wish to contribute to this website you can Fork it without affecting the main branch by following the procedure outlined below.
+If someone wants to add to the project they can fork off the main branch by following the instructons below.
 1. Go to the GitHub website and log in.
 2. Locate the [Repository](https://github.com/JonathanDelaney/Funked-Up-Chicks) used for this project.
 3. On the right-hand side of the Repository name, you'll see the 'Fork' button. It's located next to the 'Star' and 'Watch' buttons.
@@ -166,7 +167,7 @@ If you wish to contribute to this website you can Fork it without affecting the 
 5. Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository.
 
 ### Cloning 
-If you wish to clone or download this repository to your local device you can follow the procedure outlined below.
+For someone looking to clone the repository they would follow the steps outlined below.
 1. Go to the GitHub website and log in.
 2. Locate the [Repository](https://github.com/JonathanDelaney/Funked-Up-Chicks) used for this project.
 3. Under the Repository name locate 'Clone or Download' button in green.
