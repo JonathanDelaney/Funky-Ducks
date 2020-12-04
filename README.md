@@ -140,6 +140,21 @@ I went to work on the mockups, piecing things together as i went. The records to
 Testing of the webpage was carried out using <a href="https://www.webpagetest.org/">webpagetest.org</a>
 <br>
 The images had to be compressed alot, however i changed one problematic image to png and this worked a lot better. In future i may stick to png.
+<br>
+<br>
+The CSS validating was done using <a href="https://jigsaw.w3.org/css-validator/">W3</a><br>
+<img src="./assets/images/readme/CSStest.png" height="100px" />
+<br>
+<br>
+The Html validating was done using <a href="https://en.rakko.tools/tools/58/">Rakko</a><br>
+<img src="./assets/images/readme/HTMLtest.png" height="100px" /><br>
+
+ - The landing page - Pass
+ - The band page - Pass
+ - The events page - Pass
+ - The news page - Pass
+ - The Booking page - Pass
+
 
 ### Compatibility Testing
 - Browser Compatibility
