@@ -87,10 +87,17 @@ I went to work on the mockups, piecing things together as i went. The records to
 
 ## Technologies Used
 
+### Languages Used
+
 -  HTML5
 -  CSS3
--  AdobeXD
--  Vectr
+
+### Frameworks and programmes used
+
+- AdobeXd for the design of the mockups.
+- Vectr to edit images for free.
+- TnyJPG to compress images.
+- Bootstrap for dropdown navigation and the events page. Json cdn included for the dropdown nav but no JavaScript required at all.
 
 ## Testing
 
