@@ -94,6 +94,22 @@ I went to work on the mockups, piecing things together as i went. The records to
 
 ## Testing
 
+### Performance Testing
+
+Testing of the webpage was carried out using <a href="https://www.webpagetest.org/">webpagetest.org</a>
+<br>
+The images had to be compressed alot, however i changed one problematic image to png and this worked a lot better. In future i may stick to png.
+The 
+
+### Compatibility Testing
+- Browser Compatibility
+
+    | Screen size\Browser | Safari           | Opera            | Microsoft Edge   | Chrome           | Firefox          | Internet Explorer |
+    | --------------------|:----------------:|:----------------:|:----------------:|:----------------:|:----------------:|:-----------------:|
+    | Mobile              |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:| Not Tested        |
+    | Desktop             |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:| Not Tested        |
+    | Tablet              |:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:|:heavy_check_mark:| Not Tested        |
+
 <img src="./assets/images/readme/webtest.png" height="100px" />
 
 ## Credits
