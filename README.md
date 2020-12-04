@@ -177,5 +177,5 @@ If you wish to clone or download this repository to your local device you can fo
 
 ## Credits
 
-I got my images from pixabay.com and freeimages.com. None of the images used require license to publish.
+I got my images from [pixabay.com](https://pixabay.com/) and [freeimages.com.](https://www.freeimages.com/) None of the images used require license to publish.
 Kevin Powell's youtube channel and various github and stackoverflow posts gave me ideas but I typed every line of code myself.
