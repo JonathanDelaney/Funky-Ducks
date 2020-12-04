@@ -1,7 +1,7 @@
 <h1 align="center">Funked Up Chicks</h1>
 
 Live website :arrow_down:<br>
-<a href="https://jonathandelaney.github.io/Funked-Up-Chicks/index.html">![alt](./assets/images/stevie.jpg)</a>
+<a href="https://jonathandelaney.github.io/Funked-Up-Chicks/index.html">![alt](./assets/images/readme/templateimage.png)</a>
 
 ## About
 
