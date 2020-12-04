@@ -94,7 +94,7 @@ I went to work on the mockups, piecing things together as i went. The records to
 
 ## Testing
 
-<img src="./assets/images/readme/webtest.jpg" height="100px" />
+<img src="./assets/images/readme/webtest.png" height="100px" />
 
 ## Credits
 
