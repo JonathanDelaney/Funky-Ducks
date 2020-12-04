@@ -198,5 +198,7 @@ For someone looking to clone the repository they would follow the steps outlined
 ## Credits
 
 I sourced images from [pixabay.com](https://pixabay.com/) and [freeimages.com.](https://www.freeimages.com/) None of the images used require license to publish.
-Kevin Powell's [youtube channel](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) and various github and stackoverflow posts gave me some ideas.<br>
-Of course I have to mention the course material was referenced and an honorable mention should be made to all the contributors to the CodeInstitute's course material.
+Kevin Powell's [youtube channel](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) and various github and stackoverflow posts gave me some ideas.<br><br>
+Of course I have to mention the course material was referenced and an honorable mention should be made to all the contributors to the CodeInstitute's course material.<br>
+Also to the good people in the slack group chats who helped out with responsiveness and great general feedback.
+Thank you.
