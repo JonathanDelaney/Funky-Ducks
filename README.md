@@ -147,7 +147,7 @@ The CSS validating was done using <a href="https://jigsaw.w3.org/css-validator/"
 <br>
 <br>
 The Html validating was done using <a href="https://en.rakko.tools/tools/58/">Rakko</a><br>
-<img src="./assets/images/readme/HTMLtest.png" height="100px" /><br>
+<img src="./assets/images/readme/HTMLtest.png" /><br>
 
  - The landing page - Pass
  - The band page - Pass
