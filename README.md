@@ -5,7 +5,7 @@ Live website :arrow_down:<br>
 
 ## About
 
-This is a fictitious band's website. The Funked Up Chicks' online presence is the result of a lack of inspiration for something good to do without the help of JS and preferring music bands to the other suggested topics.
+This is a fictitious band's website. The purpose of the Funked Up Chicks' online presence is to inform everyone of the style and funk that this imaginary band is bringing to the world.
 
 ## User Stories
 
