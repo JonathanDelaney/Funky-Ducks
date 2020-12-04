@@ -94,7 +94,36 @@ I went to work on the mockups, piecing things together as i went. The records to
 
 ## Testing
 
+### User experience
+
+- The casual stumbler
+
+  - I want to know immediately what the band is about and what kind of musical experience to expect.
+    - The landing page gives the new visitor a taste for the sort of music to expect by the allusions made with records, old paper background, floral design behind the funky font used in the heading.
+  - I want to be able to navigate the site easily.
+    - The landing page is clean with no ambiguity around which areas of the page to interact with. The links in the header are where a user would look to naturally for navigation. The dropdown menu icon on smaller screen sizes is styled the same as the navigation links in the header so that the user will be familiar with it and know it signals navigation.
+  - I'd like for the website to be engaging and interesting to look at and explore without having the allure of a band i like encouraging me to look around.
+    - The animations are designed to make the site aestheticly pleasing and entising to the user to discover what each page has to offer.
+
+- Someone who has heard of the band but knows little or nothing about them
+
+  - (See previous user story)
+  - I want to be able to jump directly to the page which has the information I want.
+    - The menu items on the landing page are labeled clearly and break up the website into the most important topics a user may be interested in.
+  - I should see the relevant information on each page to allow me to "get into" the band.
+    - Each page highlights something about the band and gives the user an impression of what the band offers its fans.
+
+- A fan or someone who knows the band
+  - I want to see the band represented the way i know/love them.
+    - The style of the website should fit the classic funk character the band has and should give the user the impression that the Funked Up Chicks themselves could have designed this or that the creator knew their music intimately.
+  - I would like to see all the info I need to keep up with their work.
+    - The events page and news, and booking to an extent, provide the user with all they need to keep up with the bands activities and allow a user to feel informed as much as one could be about the band.
+  - I would want to be able to book them should i like or find out where/when I can see them.
+    - The booking page gives the user a place to input their details and get connected through social media alternatively.
+
+
 ### Performance Testing
+
 <img src="./assets/images/readme/webtest.png" height="100px" />
 Testing of the webpage was carried out using <a href="https://www.webpagetest.org/">webpagetest.org</a>
 <br>
