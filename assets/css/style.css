@@ -110,7 +110,7 @@ a:hover h1 {
 /* Backgrounds */
 
 .index-background {
-  background: url("../images/recordonpaper.jpg") no-repeat center top;
+  background: url("../images/recordonpaper.png") no-repeat center top;
   height: calc(100vh - (4vw + 20px));
   background-size: cover;
   padding-top: 20vh;
