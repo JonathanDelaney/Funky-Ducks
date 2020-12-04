@@ -162,9 +162,9 @@ I published the website by following the instructions below.
 If someone wants to add to the project they can fork off the main branch by following the instructons below.
 1. Go to the GitHub website and log in.
 2. Locate the [Repository](https://github.com/JonathanDelaney/Funked-Up-Chicks) used for this project.
-3. On the right-hand side of the Repository name, you'll see the 'Fork' button. It's located next to the 'Star' and 'Watch' buttons.
+3. On the right-hand side of the Repository name, you'll see the 'Fork' button next to the 'Star' and 'Watch' buttons.
 4. This will create a copy in your personal repository.
-5. Once you're finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository.
+5. Once you've finished making changes you can locate the 'New Pull Request' button just above the file listing in the original repository.
 
 ### Cloning 
 For someone looking to clone the repository they would follow the steps outlined below.
@@ -174,9 +174,9 @@ For someone looking to clone the repository they would follow the steps outlined
 4. To clone the repository using HTTPS click the link under "Clone with HTTPS".
 5. Open your Terminal and go to a directory where you want the cloned directory to be copied in.
 6. Type `Git Clone` and paste the URL you copied from the GitHub.
-7. To create your local clone press `Enter`
+7. To create your local clone press `Enter`.
 
 ## Credits
 
 I got my images from [pixabay.com](https://pixabay.com/) and [freeimages.com.](https://www.freeimages.com/) None of the images used require license to publish.
-Kevin Powell's youtube channel and various github and stackoverflow posts gave me ideas but I typed every line of code myself.
+Kevin Powell's [youtube channel](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) and various github and stackoverflow posts gave me ideas but I typed every line of code myself.
