@@ -104,6 +104,10 @@ I went to work on the mockups, piecing things together as i went. The records to
 
 ### User experience
 
+- Friends and Family
+
+    - I asked friends and family of all different ages and abilities to play around with the website and explore its pages. No issues were found.
+
 - The casual stumbler
 
   - I want to know immediately what the band is about and what kind of musical experience to expect.
@@ -178,6 +182,6 @@ For someone looking to clone the repository they would follow the steps outlined
 
 ## Credits
 
-I got my images from [pixabay.com](https://pixabay.com/) and [freeimages.com.](https://www.freeimages.com/) None of the images used require license to publish.
+I sourced images from [pixabay.com](https://pixabay.com/) and [freeimages.com.](https://www.freeimages.com/) None of the images used require license to publish.
 Kevin Powell's [youtube channel](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw) and various github and stackoverflow posts gave me some ideas.<br>
 Of course I have to mention the course material was referenced and an honorable mention should be made to all the contributors to the CodeInstitute's course material.
