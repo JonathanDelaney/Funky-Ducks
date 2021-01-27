@@ -151,8 +151,8 @@ a:hover h1 {
   background-blend-mode: multiply;
   background-size: cover;
   object-fit: cover;
-  height: calc(100vh - (4vw + 20px));
-  padding: 4vh 5vw;
+  height: 100vh;
+  padding: 0px 5vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -211,7 +211,7 @@ padding-left: calc(100vw - 1880px);
 }
 
 .form-container {
-  height: 45vh;
+  height: 350px;
   width: 50%;
   border-radius: 25px;
   background: rgb(255, 254, 254);
@@ -225,7 +225,7 @@ padding-left: calc(100vw - 1880px);
 }
 
 .social-container {
-  height: 25vh;
+  height: 190px;
   width: 70vw;
   max-width: 1000px;
   border-radius: 25px;
@@ -245,9 +245,6 @@ padding-left: calc(100vw - 1880px);
   display: inline-block;
   margin: 0 2% 190px 8%;
   position: relative;
-}
-
-.band-menu-item {
 }
 
 .events-menu-item {
@@ -676,6 +673,15 @@ input[type="submit"]:hover {
   color: #7f5e45;
 }
 
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 0%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
 @media only screen and (max-width: 1199px) {
   /* header */
 
@@ -737,13 +743,13 @@ input[type="submit"]:hover {
 
   .band-background {
     background-size: auto 100%;
-    height: calc(2700px - 50vw);
+    height: calc(3100px - 50vw);
   }
 
   .band-container {
     flex-direction: column;
     justify-content: space-around;
-    height: calc(2700px - 50vw);
+    height: calc(2900px - 50vw);
   }
 
   .stevie {
@@ -773,14 +779,14 @@ input[type="submit"]:hover {
   /* events.html */
 
   .events-background {
-    height: 220vh;
+    height: 240vh;
   }
 
   /* news.html */
 
   .news-background {
-    background-size: auto calc(2400px - 86vw);
-    height: calc(2400px - 86vw);
+    background-size: auto calc(2700px - 86vw);
+    height: calc(2700px - 86vw);
     padding: 3px;
   }
 
@@ -822,7 +828,7 @@ input[type="submit"]:hover {
 
   .band-background {
     background-size: auto 100%;
-    height: calc(3200px - 50vw);
+    height: calc(3400px - 50vw);
   }
 
   .band-container {
@@ -840,7 +846,7 @@ input[type="submit"]:hover {
   /* Events.html */
 
   .events-background {
-    height: 270vh;
+    height: 290vh;
     overflow: hidden;
   }
 
@@ -851,8 +857,8 @@ input[type="submit"]:hover {
   /* news.html */
 
   .news-background {
-    background-size: auto calc(3000px - 88vw);
-    height: calc(2900px - 88vw);
+    background-size: auto calc(3100px - 88vw);
+    height: calc(3200px - 88vw);
     padding: 5vh 0;
   }
 
@@ -889,17 +895,17 @@ input[type="submit"]:hover {
   /* booking.html */
 
   .booking-background {
-    height: 130vh;
+    height: 1400px;
   }
 
   .form-container {
-    height: 70vh;
+    height: 700px;
     width: 100%;
     overflow: hidden;
   }
 
   .social-container {
-    height: 40vh;
+    height: 400px;
   }
 
   .social-links {
